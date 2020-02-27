@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background: #E2E9FF;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* Heading Div */
+.heading {
+    height: 50px;
+    background: #AF7DEB;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.heading h2 {
+    padding-top: 10px;
+}
+
+/* Content Div */
+.content {
+    background: #FFFFFF;
+    padding: 20px;
+    color: #717583;
+    margin-bottom: 150px;
+    text-align: left;
+    /* border-radius: 3px; */
+}
+
+/* Ul & Li Styles  */
+.content ul {
+    list-style: none;
+}
+
+.content ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+#todoField {
+    /* background: none; */
+    border: none;
+    border-radius: 3px;
+    width: 60%;
+    padding: 7px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/* Btn */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #AF7DEB;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
