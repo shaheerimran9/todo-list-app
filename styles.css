@@ -34,7 +34,7 @@ body {
     background: #FFFFFF;
     padding: 20px;
     color: #717583;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
     text-align: left;
     /* border-radius: 3px; */
 }
@@ -42,6 +42,11 @@ body {
 /* Ul & Li Styles  */
 .content ul {
     list-style: none;
+}
+
+.content ul li {
+    display: flex;
+    justify-content: space-between;
 }
 
 .content ul li:not(:last-child) {
@@ -61,10 +66,12 @@ body {
 
 /* Btn */
 .btn {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
     text-decoration: none;
     background: #AF7DEB;
     color: #FFFFFF;
+    font-size: 13.5px;
     padding: 10px 30px;
-    border-radius: 20px;
 }
